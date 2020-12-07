@@ -15,6 +15,10 @@
   </div>
   <div class="footer">
     <router-link to="/admin">Admin</router-link>
+    <a class="github-link" href='https://github.com/BYU-CS-260-Winter-2020/lab-4-museum-of-ordinary-objects-Parzival720' target='_blank'>
+      <img src="/images/github.png" class="small-icon"  width="50" height="30">
+      Link to GitHub repository
+    </a>
   </div>
 </div>
 </template>
@@ -59,6 +63,10 @@ body {
   padding: 20px 100px 0px 100px;
   background: #e3e3e3;
   font-size: 12px;
+  display: flex;
+
+  flex-direction: row;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .footer a {
@@ -71,5 +79,33 @@ h1 {
 
 h2 {
   font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-link:link,
+.github-link:visited {
+  align-self: center;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+  text-align: center;
+  border-radius: 0.25em;
+}
+
+.github-link:hover,
+.github-link:visited:hover {
+  color: #add8e6;
+}
+
+.github-link:active,
+.github-link:visited:active {
+  color: #add8e6;
 }
 </style>
