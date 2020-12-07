@@ -30,7 +30,7 @@ export default {
         this.items = response.data;
         return true;
       } catch (error) {
-
+        window.console.log(error);
       }
     },
   }
