@@ -14,8 +14,7 @@
     <router-view />
   </div>
   <div class="footer">
-    <router-link to="/admin">Admin</router-link>
-    <a class="github-link" href='https://github.com/BYU-CS-260-Winter-2020/lab-4-museum-of-ordinary-objects-Parzival720' target='_blank'>
+    <a class="github-link" href='https://github.com/Parzival720/creative4' target='_blank'>
       <img src="/images/github.png" class="small-icon"  width="50" height="30">
       Link to GitHub repository
     </a>
