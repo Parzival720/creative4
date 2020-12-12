@@ -1,0 +1,3 @@
+curl -X POST -d "{\"firstName\": \"Emma\", \"lastName\": \"Smith\", \"username\": \"clown\", \"password\": \"badpassword\"}" -H "Content-Type: application/json" localhost:3000/api/users
+
+curl -X POST -d "{\"username\": \"clown\", \"password\": \"badpassword\"}" -H "Content-Type: application/json" localhost:3000/api/users/login

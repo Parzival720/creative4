@@ -3,11 +3,11 @@
   <div class="header">
     <router-link to="/">
       <div class="logo">
-        <img src="/ordinary.png">
+        <img src="/coding.png">
       </div>
     </router-link>
     <div class="title">
-      <h1>Museum of Ordinary Objects</h1>
+      <h1>The Coding Lair</h1>
     </div>
   </div>
   <div class="content">
@@ -40,8 +40,8 @@ body {
 .header {
   display: flex;
   padding: 10px 100px 0px 100px;
-  background-color: #5BDEFF;
-  color: #1C454F;
+  background-color: #2F2FA2;
+  color: #333;
 }
 
 .title {
@@ -71,6 +71,10 @@ body {
 
 .footer a {
   color: #000;
+}
+
+.logo img {
+  width: 80px;
 }
 
 h1 {
