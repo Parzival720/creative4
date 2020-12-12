@@ -8,7 +8,7 @@ const users = require("./users.js");
 // Configure multer so that it will upload to '../front-end/public/images'
 const multer = require('multer');
 const uploadFile = multer({
-  dest: '../front-end/public/files',
+  dest: '/var/www/cp4.rifttec.com/files/',
   limits: {
     fileSize: 10000000
   }
